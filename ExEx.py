@@ -1,5 +1,3 @@
-# ACPyhton5
-
 '''Esta atividade deve ser realizada até 21/04/2018 às 23hs
 1 - Considere o problema de conversão de temperatura. Escreva um programa modularizado que permite ao usuário converter uma faixa de temperatura de Fahrenheit para Celsius (O usuário deve digitar F) e de Celsius para Fahrenheit (O usuário deve digitar C). Para a construção do
 programa você deve escrever as seguintes funções:
@@ -27,8 +25,6 @@ def getConvertTO():
     else:
         return exibeCelsiusTOFahrenheit()
         
-        
-
 def exibeFahrenheitTOCelsius(start = None, end = None):
     start = float(input('Digite a tempreratura em Fahrenheit:  '))
     end = ((start-32)/1.8)
@@ -58,8 +54,6 @@ def validarPositivo ():
     while x < 0:
         x = int(input('DADOS INCORRETOS!!! TENTE NOVAMENTE: \nDigite um número inteiro positivo: '))
     return x
-    
-
         
 def fatorial(y = validarPositivo (), result =1):
     w = y
